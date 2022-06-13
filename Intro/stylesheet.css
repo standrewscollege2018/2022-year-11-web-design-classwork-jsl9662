@@ -1,0 +1,41 @@
+body{
+  background-color: rgb(156, 152, 148);
+}
+@font-face {
+  font-family:racer;
+  src: url(RACING_HARD.ttf);
+}
+h1{
+  color: rgb(0, 255, 100);
+  font-family:racer,sans-serif;
+}
+
+a{
+  color: rgb(17, 125, 89);
+  text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+}
+
+.nav_bar {
+  color: blue
+}
+
+.content-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 10px;
+}
+.card{
+  border: 1px solid rgb(1, 1, 1);
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.card > p {
+  padding: 10px;
+}
+.center{
+  text-align: center;
+}
